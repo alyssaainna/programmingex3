@@ -11,13 +11,11 @@ import java.util.Scanner;
 
 public class GuessingGame {
 
-	private static Scanner input;
-
 	public static void main(String[] args){
 		int randomnumber = (int)(Math.random()*10001);
 		int max = 10000, min=1, tries=1;
 			
-		input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println(" Guess a number between 1-10,000 ");
 		
 	//	int guess = -1?;
